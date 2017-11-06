@@ -1,0 +1,16 @@
+#mkdir a direction and init to be a repository
+	git init
+#to add file and commit
+	git add <file>
+	git commit -m "readable txt"
+#to check the status
+	git status
+#to check the difference:
+	git diff
+#change the version to "HEAD^" or to "commit_id"
+	git reset --hard commit_id
+#check the history of commit
+	git log
+#check the history of usr's command
+	git reflog
+
