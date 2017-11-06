@@ -13,4 +13,10 @@
 	git log
 #check the history of usr's command
 	git reflog
+#to rm the modify of workspace
+	git checkout -- file
+#to rm the modify of staged
+	git reset HEAD <file> 
+	git checkout -- file
+	
 
