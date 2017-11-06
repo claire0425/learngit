@@ -40,5 +40,7 @@
 	git merge <name>
 #rm the branch
 	git branch -d <name>
+#check the graph of combine
+	git log --graph
 	
 
