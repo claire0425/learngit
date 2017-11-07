@@ -42,5 +42,19 @@
 	git branch -d <name>
 #check the graph of combine
 	git log --graph
+#interrup and protect the workspace to fix bug on master	git stage
+	git stage list
+	git status
+	git checkout master
+	.......fix bug on master
+	git checkout dev
+	git checkout . ### needed?
+	git status
+	git stage list
+	git stage pop/git stage apply stash@{0} 
+	git stage clear/drop
+#disert a unmerged branch
+	git branch -D <branch name>
+
 	
 
