@@ -5,3 +5,4 @@ Git tracks changes of files
 Creating a new branch is quick and simple
 merge
 test push
+push after other's push
